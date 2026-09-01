@@ -7,10 +7,26 @@ compile_sass = true
 # Whether to build a search index to be used later on by a JavaScript library
 build_search_index = true
 
+theme = "apollo"
+taxonomies = [{ name = "tags" }]
+
+[extra]
+theme = "auto"
+socials = [
+  # Configure socials here
+]
+menu = [
+  # Configure menu bar here
+]
+
+[extra.taxonomies]
+sort_by = "page_count"         # e.g. name, page_count
+reverse = true
+
+[extra.analytics]
+enabled = false
+
 [markdown]
 
 [markdown.highlighting]
 theme = "catppuccin-mocha"
-
-[extra]
-# Put all your custom variables here
