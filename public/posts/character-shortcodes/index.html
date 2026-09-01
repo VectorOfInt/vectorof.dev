@@ -1,0 +1,342 @@
+
+<!DOCTYPE html>
+<html lang="en" class="dark light">
+
+    
+<head>
+    
+
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="base" content="https://vectorof.dev" />
+
+    
+
+    
+
+    
+    
+    
+        <title>
+            
+                Character Components Example
+            
+        </title>
+
+        
+            <meta property="og:title"
+                  content="Character Components Example" />
+        
+    
+
+    
+        
+    
+
+    
+        
+    
+
+    
+    
+
+    
+    
+        <link href=https://vectorof.dev/fonts.css rel="stylesheet" />
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+
+    
+    
+
+
+    
+
+    
+    
+
+    
+    
+        <link rel="stylesheet"
+              type="text/css"
+              href="https://vectorof.dev/theme/light.css" />
+        <link rel="stylesheet"
+              type="text/css"
+              href="https://vectorof.dev/theme/dark.css"
+              media="(prefers-color-scheme: dark)" />
+    
+
+    
+        
+        <script src=https://vectorof.dev/js/themetoggle.js></script>
+
+        
+            <script>
+                if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+                    setTheme("dark");
+                } else {
+                    setTheme("light");
+                }
+            </script>
+        
+    
+
+
+    <link rel="stylesheet"
+          type="text/css"
+          media="screen"
+          href="https://vectorof.dev/main.css" />
+
+    
+
+    <script defer
+                    src="https://vectorof.dev/search_index.en.js?h=5bc91731592c419d24a6"></script>
+        <script defer
+                src="https://vectorof.dev/js/searchElasticlunr.min.js?h=3626c0ef99daa745b31e"></script>
+
+</head>
+
+
+    <body>
+        
+
+        <div class="left-content">
+            
+            
+        </div>
+
+        <div class="content">
+            <nav>
+    <div class="left-nav">
+        
+            <a href=https://vectorof.dev class="logo">
+                <img alt="VectorOfInt" src="https://vectorof.dev/logo.svg" />
+            </a>
+        
+
+
+        <div class="socials">
+            
+                
+            
+            
+                <a rel='me' href="https://www.linkedin.com/in/pawel-bis-936882156/" class="social">
+                    <img alt="linkedin"
+                         src="https://vectorof.dev/icons/social/linkedin.svg" />
+                </a>
+            
+                <a rel='me' href="https://github.com/vectorofint/" class="social">
+                    <img alt="github"
+                         src="https://vectorof.dev/icons/social/github.svg" />
+                </a>
+            
+        </div>
+    </div>
+
+    <div class="right-nav">
+        
+            <a href=https://vectorof.dev/posts style="margin-right: 0.5em">posts</a>
+        
+            <a href=https://vectorof.dev/projects style="margin-right: 0.5em">projects</a>
+        
+            <a href=https://vectorof.dev/about style="margin-right: 0.5em">about</a>
+        
+            <a href=https://vectorof.dev/tags style="margin-right: 0.5em">tags</a>
+        
+
+        
+            <button id="search-button"
+                    class="search-button"
+                    title="$SHORTCUT to open search">
+                <img src="https://vectorof.dev/icons/search.svg"
+                     alt="Search"
+                     class="search-icon" />
+            </button>
+
+            <div id="searchModal"
+                 class="search-modal js"
+                 role="dialog"
+                 aria-labelledby="modalTitle">
+                <div id="modal-content">
+                    <h1 id="modalTitle" class="page-header">
+                        Search
+                    </h1>
+                    <div id="searchBar">
+                        <input id="searchInput"
+                               role="combobox"
+                               autocomplete="off"
+                               spellcheck="false"
+                               aria-expanded="false"
+                               aria-controls="results-container"
+                               placeholder="Search..." />
+                        <button id="clear-search" class="clear-button" title="Clear search">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960">
+                                <path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z" />
+                            </svg>
+                        </button>
+                    </div>
+                    <div id="results-container">
+                        <div id="results-info">
+                            <span id="zero_results" style="display: none;">No results</span>
+                            <span id="one_result" style="display: none;">1 result</span>
+                            <span id="many_results" style="display: none;">$NUMBER results</span>
+                        </div>
+                        <div id="results" role="listbox">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+
+        
+        
+    </div>
+</nav>
+
+
+            
+            
+    
+<div class="visible-element-observer-root" data-selector="main article p">
+    <main>
+        <article>
+            <div class="title">
+                
+                
+
+    <div class="page-header">
+        Character Components Example
+    </div>
+
+
+
+                <div class="meta">
+                    
+                        Posted on <time>2025-08-11</time>
+                    
+
+
+                    
+
+                    
+
+                    
+
+                    
+                    
+
+                    
+                    
+
+                    
+                    
+
+                    
+
+                </div>
+            </div>
+
+            
+
+            <section class="body">
+                <p>This example uses the <code>character</code> component to add dialogue and interactive characters to posts.</p>
+<div class="character-note character-hooded character-comment character-right">
+<div class="character-avatar">
+<p><img src="https://vectorof.dev/images/characters/hooded.png"
+     alt="hooded"
+     width="80"
+     height="80" /></p>
+</div>
+<div class="character-content">
+<div class="character-bubble">
+<p>Whaaaaaaaaaaaaaaaaaaat, that's almost 70 years ago???</p>
+</div>
+</div>
+</div>
+<p>I know, it's crazy. Here's an example program:</p>
+<pre class="giallo" style="color: #CDD6F4; background-color: #1E1E2E;" ><code data-lang="plain"><span class="giallo-l"><span>PROGRAM MAIN</span></span>
+<span class="giallo-l"><span>PRINT *, &#39;HELLO WORLD&#39;</span></span>
+<span class="giallo-l"><span>STOP</span></span>
+<span class="giallo-l"><span>END</span></span></code></pre><div class="character-note character-hooded character-comment character-right">
+<div class="character-avatar">
+<p><img src="https://vectorof.dev/images/characters/hooded.png"
+     alt="hooded"
+     width="80"
+     height="80" /></p>
+</div>
+<div class="character-content">
+<div class="character-bubble">
+<p>There's also a more modern version which is a bit easier to read:</p>
+<pre class="giallo" style="color: #CDD6F4; background-color: #1E1E2E;" ><code data-lang="plain"><span class="giallo-l"><span>program helloWorld</span></span>
+<span class="giallo-l"><span>   print *, &quot;Hello World!&quot;</span></span>
+<span class="giallo-l"><span>end program helloWorld</span></span></code></pre>
+</div>
+</div>
+</div>
+<p>Good to know, thanks buddy!</p>
+<div class="character-note character-hooded character-comment character-left">
+<div class="character-avatar">
+<p><img src="https://vectorof.dev/images/characters/hooded.png"
+     alt="hooded"
+     width="80"
+     height="80" /></p>
+</div>
+<div class="character-content">
+<div class="character-bubble">
+<p>:)</p>
+</div>
+</div>
+</div>
+<div class="character-note character-hooded character-comment character-right">
+<div class="character-avatar">
+<p><img src="https://vectorof.dev/images/characters/hooded.png"
+     alt="hooded"
+     width="80"
+     height="80" /></p>
+</div>
+<div class="character-content">
+<div class="character-bubble">
+<p>custom image</p>
+</div>
+</div>
+</div>
+
+            </section>
+        </article>
+    </main>
+</div>
+
+
+
+            
+                
+            
+
+            
+        </div>
+
+        <div class="right-content">
+            
+    
+    
+
+        </div>
+        
+
+    </body>
+
+</html>

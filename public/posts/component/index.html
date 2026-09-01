@@ -1,0 +1,377 @@
+
+<!DOCTYPE html>
+<html lang="en" class="dark light">
+
+    
+<head>
+    
+
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="base" content="https://vectorof.dev" />
+
+    
+
+    
+
+    
+    
+    
+        <title>
+            
+                Note Component Example
+            
+        </title>
+
+        
+            <meta property="og:title"
+                  content="Note Component Example" />
+        
+    
+
+    
+        
+    
+
+    
+        
+    
+
+    
+    
+
+    
+    
+        <link href=https://vectorof.dev/fonts.css rel="stylesheet" />
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+    
+
+    
+
+    
+    
+
+
+    
+
+    
+    
+
+    
+    
+        <link rel="stylesheet"
+              type="text/css"
+              href="https://vectorof.dev/theme/light.css" />
+        <link rel="stylesheet"
+              type="text/css"
+              href="https://vectorof.dev/theme/dark.css"
+              media="(prefers-color-scheme: dark)" />
+    
+
+    
+        
+        <script src=https://vectorof.dev/js/themetoggle.js></script>
+
+        
+            <script>
+                if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+                    setTheme("dark");
+                } else {
+                    setTheme("light");
+                }
+            </script>
+        
+    
+
+
+    <link rel="stylesheet"
+          type="text/css"
+          media="screen"
+          href="https://vectorof.dev/main.css" />
+
+    
+
+    <script defer
+                    src="https://vectorof.dev/search_index.en.js?h=5bc91731592c419d24a6"></script>
+        <script defer
+                src="https://vectorof.dev/js/searchElasticlunr.min.js?h=3626c0ef99daa745b31e"></script>
+
+</head>
+
+
+    <body>
+        
+
+        <div class="left-content">
+            
+            
+        </div>
+
+        <div class="content">
+            <nav>
+    <div class="left-nav">
+        
+            <a href=https://vectorof.dev class="logo">
+                <img alt="VectorOfInt" src="https://vectorof.dev/logo.svg" />
+            </a>
+        
+
+
+        <div class="socials">
+            
+                
+            
+            
+                <a rel='me' href="https://www.linkedin.com/in/pawel-bis-936882156/" class="social">
+                    <img alt="linkedin"
+                         src="https://vectorof.dev/icons/social/linkedin.svg" />
+                </a>
+            
+                <a rel='me' href="https://github.com/vectorofint/" class="social">
+                    <img alt="github"
+                         src="https://vectorof.dev/icons/social/github.svg" />
+                </a>
+            
+        </div>
+    </div>
+
+    <div class="right-nav">
+        
+            <a href=https://vectorof.dev/posts style="margin-right: 0.5em">posts</a>
+        
+            <a href=https://vectorof.dev/projects style="margin-right: 0.5em">projects</a>
+        
+            <a href=https://vectorof.dev/about style="margin-right: 0.5em">about</a>
+        
+            <a href=https://vectorof.dev/tags style="margin-right: 0.5em">tags</a>
+        
+
+        
+            <button id="search-button"
+                    class="search-button"
+                    title="$SHORTCUT to open search">
+                <img src="https://vectorof.dev/icons/search.svg"
+                     alt="Search"
+                     class="search-icon" />
+            </button>
+
+            <div id="searchModal"
+                 class="search-modal js"
+                 role="dialog"
+                 aria-labelledby="modalTitle">
+                <div id="modal-content">
+                    <h1 id="modalTitle" class="page-header">
+                        Search
+                    </h1>
+                    <div id="searchBar">
+                        <input id="searchInput"
+                               role="combobox"
+                               autocomplete="off"
+                               spellcheck="false"
+                               aria-expanded="false"
+                               aria-controls="results-container"
+                               placeholder="Search..." />
+                        <button id="clear-search" class="clear-button" title="Clear search">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960">
+                                <path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z" />
+                            </svg>
+                        </button>
+                    </div>
+                    <div id="results-container">
+                        <div id="results-info">
+                            <span id="zero_results" style="display: none;">No results</span>
+                            <span id="one_result" style="display: none;">1 result</span>
+                            <span id="many_results" style="display: none;">$NUMBER results</span>
+                        </div>
+                        <div id="results" role="listbox">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+
+        
+        
+    </div>
+</nav>
+
+
+            
+            
+    
+<div class="visible-element-observer-root" data-selector="main article p">
+    <main>
+        <article>
+            <div class="title">
+                
+                
+
+    <div class="page-header">
+        Note Component Example
+    </div>
+
+
+
+                <div class="meta">
+                    
+                        Posted on <time>2024-06-14</time>
+                    
+
+
+                    
+
+                    
+
+                    
+
+                    
+                    
+
+                    
+                    
+
+                    
+                    
+                        <span class="tags-label">::</span>
+                        <span class="tags">
+                                <a href="https://vectorof.dev/tags/example/"
+                                   class="post-tag">example</a>
+                            
+                        </span>
+                    
+
+                    
+
+                </div>
+            </div>
+
+            
+
+            <section class="body">
+                <h2 id="note"><a class="zola-anchor" href="#note" aria-label="Anchor link for: note">Note</a></h2>
+<p>Here is an example of the <code>note</code> component:</p>
+<p>This one is static!</p>
+<div class="note-container">
+<div class="note-header">
+<div class="note-icon">
+<p>Note!</p>
+</div>
+</div>
+<div class="note-content">
+<p>This blog assumes basic terminal maturity</p>
+</div>
+</div>
+<p>This one is clickable!</p>
+<div class="note-container">
+<button class="note-toggle">
+<div class="note-icon">
+<p>Quiz!</p>
+</div>
+</button>
+<div class="note-content" style="display: none;">
+<p>The answer to the quiz!</p>
+</div>
+</div>
+<p>Syntax:</p>
+<pre class="giallo" style="color: #CDD6F4; background-color: #1E1E2E;" ><code data-lang="plain"><span class="giallo-l"><span>{% &lt;note header=&quot;Note!&quot;&gt; %}This blog assumes basic terminal maturity{% &lt;/note&gt; %}</span></span>
+<span class="giallo-l"><span>{% &lt;note clickable={true} hidden={true} header=&quot;Quiz!&quot;&gt; %}The answer to the quiz!{% &lt;/note&gt; %}</span></span></code></pre>
+<p>You can also use some HTML in the text:</p>
+<div class="note-container">
+<div class="note-header">
+<div class="note-icon">
+<p>Note!</p>
+</div>
+</div>
+<div class="note-content">
+<h1>This blog assumes basic terminal maturity</h1>
+</div>
+</div>
+<p>Literal component:</p>
+<pre class="giallo" style="color: #CDD6F4; background-color: #1E1E2E;" ><code data-lang="plain"><span class="giallo-l"><span>{% &lt;note header=&quot;Note!&quot;&gt; %}&lt;h1&gt;This blog assumes basic terminal maturity&lt;/h1&gt;{% &lt;/note&gt; %}</span></span></code></pre>
+<p>Pretty cool, right?</p>
+<p>Finally, you can do something like this (hopefully):</p>
+<div class="note-container">
+<button class="note-toggle">
+<div class="note-icon">
+<p>Quiz!</p>
+</div>
+</button>
+<div class="note-content" style="display: block;">
+<h1 id="hello-this-is-markdown-inside-a-note-component">Hello this is markdown inside a note component</h1>
+<pre class="giallo" style="color: #CDD6F4; background-color: #1E1E2E;" ><code data-lang="rust"><span class="giallo-l"><span style="color: #CBA6F7;">fn</span><span style="color: #89B4FA;font-style: italic;"> main</span><span style="color: #9399B2;">() {</span></span>
+<span class="giallo-l"><span style="color: #89B4FA;font-style: italic;">    println!</span><span style="color: #9399B2;">(</span><span style="color: #A6E3A1;">&quot;Hello World&quot;</span><span style="color: #9399B2;">);</span></span>
+<span class="giallo-l"><span style="color: #9399B2;">}</span></span></code></pre>
+<p>We can't call another component inside a component, but this is good enough.</p>
+</div>
+</div>
+<p>Here is the raw markdown:</p>
+<pre class="giallo" style="color: #CDD6F4; background-color: #1E1E2E;" ><code data-lang="markdown"><span class="giallo-l"><span>{% </span><span style="color: #94E2D5;">&lt;</span><span style="color: #89B4FA;">note</span><span style="color: #F9E2AF;"> clickable</span><span style="color: #94E2D5;">=</span><span style="color: #A6E3A1;">{true}</span><span style="color: #F9E2AF;"> header</span><span style="color: #94E2D5;">=</span><span style="color: #A6E3A1;">&quot;Quiz!&quot;</span><span style="color: #94E2D5;">&gt;</span><span> %}</span></span>
+<span class="giallo-l"></span>
+<span class="giallo-l"><span style="color: #F38BA8;"># Hello this is markdown inside a note component</span></span>
+<span class="giallo-l"></span>
+<span class="giallo-l"><span style="color: #F5C2E7;">\`\`\`</span><span>rust</span></span>
+<span class="giallo-l"><span>fn main() {</span></span>
+<span class="giallo-l"><span>    println!(&quot;Hello World&quot;);</span></span>
+<span class="giallo-l"><span>}</span></span>
+<span class="giallo-l"><span style="color: #F5C2E7;">\`\`\`</span></span>
+<span class="giallo-l"></span>
+<span class="giallo-l"><span>We can&#39;t call another component inside a component, but this is good enough.</span></span>
+<span class="giallo-l"></span>
+<span class="giallo-l"><span>{% </span><span style="color: #94E2D5;">&lt;/</span><span style="color: #89B4FA;">note</span><span style="color: #94E2D5;">&gt;</span><span> %}</span></span></code></pre>
+<p>Finally, we have center</p>
+<div class="note-container">
+<div class="note-header">
+<div class="note-center">
+<p>Centered Text</p>
+</div>
+</div>
+<div class="note-content">
+<p>This is centered text</p>
+</div>
+</div>
+<pre class="giallo" style="color: #CDD6F4; background-color: #1E1E2E;" ><code data-lang="markdown"><span class="giallo-l"><span>{% </span><span style="color: #94E2D5;">&lt;</span><span style="color: #89B4FA;">note</span><span style="color: #F9E2AF;"> center</span><span style="color: #94E2D5;">=</span><span style="color: #A6E3A1;">{true}</span><span style="color: #F9E2AF;"> header</span><span style="color: #94E2D5;">=</span><span style="color: #A6E3A1;">&quot;Centered Text&quot;</span><span style="color: #94E2D5;">&gt;</span><span> %}This is centered text{% </span><span style="color: #94E2D5;">&lt;/</span><span style="color: #89B4FA;">note</span><span style="color: #94E2D5;">&gt;</span><span> %}</span></span></code></pre>
+<p>It works good enough for me!</p>
+
+            </section>
+        </article>
+    </main>
+</div>
+
+
+
+            
+                
+            
+
+            
+                <div class="giscus">
+                </div>
+                <script src="https://utteranc.es/client.js" repo="YOUR_NAME/YOUR_REPO" issue-term="pathname" theme="github-light" crossorigin="anonymous" async>
+</script>
+
+            
+        </div>
+
+        <div class="right-content">
+            
+    
+    
+
+        </div>
+        
+
+    </body>
+
+</html>
