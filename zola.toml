@@ -4,7 +4,6 @@ base_url = "https://vectorof.dev"
 compile_sass = true
 build_search_index = true
 
-theme = "apollo"
 taxonomies = [{ name = "tags" }]
 
 [extra]
